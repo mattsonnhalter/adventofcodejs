@@ -11,7 +11,7 @@ function GoUpOrDown(element, index, array){
         floorCounter--;
         
         if(floorCounter == -1 && santaHitBasement == false){
-            console.log(index + 1)
+            console.log(index + 1)  //since index 0 represents character position 1 and we want to output the character position as answer
             santaHitBasement = true;
         }
     }        
